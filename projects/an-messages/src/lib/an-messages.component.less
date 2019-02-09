@@ -1,0 +1,39 @@
+@z-index--messages: 9000;
+@green-middle: #7eb500;
+@red-middle: #c6001d;
+@blue-middle: #0071ae;
+
+.an-messages {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: @z-index--messages;
+  &--item {
+    width: 300px;
+    padding: 15px 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    p {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+  &--succ {
+    border-color: @green-middle;
+    color: @green-middle;
+  }
+  &--err {
+    border-color: @red-middle;
+    color: @red-middle;
+  }
+  &--info {
+    border-color: @blue-middle;
+    color: @blue-middle;
+  }
+}

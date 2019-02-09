@@ -1,0 +1,5 @@
+<div class="an-messages">
+  <div *ngFor="let message of messageService.messages" class="an-messages--item an-messages--{{ message.type }}" (click)="message_delete(message.id)">
+    <p>{{ message.text }}</p>
+  </div>
+</div>
