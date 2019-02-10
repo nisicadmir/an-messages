@@ -1,6 +1,22 @@
 {
   "name": "an-messages",
   "version": "1.0.0",
+  "authors": [
+    "Admir Nisic <admir.nisic@outlook.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisicadmir/an-messagees.git"
+  },
+  "homepage": "https://github.com/nisicadmir/an-messages#readme",
+  "keywords": [
+    "angular",
+    "angular 6",
+    "angular 7",
+    "messages",
+    "angular messages"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^6.0.0",
     "@angular/core": "^6.0.0"
