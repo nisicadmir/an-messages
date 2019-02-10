@@ -8,7 +8,7 @@ Download from npm
 npm install --save an-messages
 ```
 
-### Angular installation
+## Angular installation
 
 In app.module.ts
 
