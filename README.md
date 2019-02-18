@@ -40,7 +40,7 @@ In app.component.html
 In your component
 
 ```javascript
-import { AnMessagesService } from 'an-loader';
+import { AnMessagesService } from 'an-messages';
 constructor(private messagesService: AnMessagesService){}
 ```
 
